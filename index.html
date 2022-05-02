@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belleza&family=Source+Serif+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="./src/images/favicon-16x16.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="./src/CSS/reset.css">
+    <link rel="stylesheet" href="./src/CSS/style.css">
+    <link rel="stylesheet" href="./src/CSS/responsive.css">
+
+    <title>Kartiaga Hamburgueria</title>
+</head>
+<body>
+    <header class="cabecalho">
+
+        <a href="index.html" class="logo">
+            <h1>Logo Hamburgueria</h1>
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="mailto: kaiqueartiagaluz@gmail.com">Contato</a></li>
+                <li><a href="#cardapio">Cardápio</a></li>
+                <li><a href="#quem-somos">Quem somos?</a></li>
+                <li><a href="#cadastro">Cadastre-se</a></li>
+            </ul>    
+        </nav>
+    </header>
+
+    <main>
+        <section class="painel">
+            <h2>O melhor que você pode encontrar,<br>
+            o mais rápido que pode ter!!!</h2>
+        </section>
+
+        <section id="cardapio">
+            <div class="tabela-dos-sabores">
+                <h2>Hamburguers</h2>
+
+                <table>
+                    <tr>
+                        <td><a href="#"><img src="./src/images/simples.png" alt="Hamburguer simples"></a></td>
+                        <td><a href="#"><img src="./src/images/especial.png" alt="Hamburguer especial"></a></td>
+                        <td><a href="#"><img src="./src/images/bacon-especial.png" alt="Hamburguer bacon especial"></a></td>
+
+                    </tr>
+
+                    <tr>
+                        <th>Simples</th>
+                        <th>Especial</th>
+                        <th>Bacon especial</th>
+                    </tr>
+
+                    <tr>
+                        <td><a href="#"><img src="./src/images/chicken.png" alt="Hamburguer Chicken"></a></td>
+                        <td><a href="#"><img src="./src/images/vegetariano.png" alt="Hamburguer vegetariano"></a></td>
+                        <td><a href="#"><img src="./src/images/duplo-burguer.png" alt="Hamburguer bacon especial"></a></td>
+                    </tr>
+
+                    <tr>
+                        <th>Chicken</th>
+                        <th>Vegetariano</th>
+                        <th>Duplo Burguer</th>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="tabela-das-bebidas">
+                <h2>Bebidas</h2>
+
+                <div class="bump">
+                    <table>
+                        <tr>
+                            <td><a href="#"><img src="./src/images/Cerveja.png" alt="Hamburguer simples"></a></td>
+                            <td><a href="#"><img src="./src/images/refrigerante.png" alt="Hamburguer especial"></a></td>
+                            <td><a href="#"><img src="./src/images/suco.png" alt="Hamburguer bacon especial"></a></td>
+
+                        </tr>
+
+                        <tr>
+                            <th>Cerveja</th>
+                            <th>Refrigerante</th>
+                            <th>Suco</th>
+                            
+                        </tr>
+
+                        <tr>
+                            <td><a href="#"><img src="./src/images/milk-shake.png" alt="Milk Shake"></a></td>
+                            <td><a href="#"><img src="./src/images/whisky.png" alt="Whisky"></a></td>
+                            <td><a href="#"><img src="./src/images/cafe.png" alt="Café"></a></td>
+                        </tr>
+
+                        <tr>
+                            <th>Milk Shake</th>
+                            <th>Whisky</th>
+                            <th>Café</th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section class="secao-com-texto" id="quem-somos">
+            <header>
+                <img src="./src/images/logo-secoes.png">
+                <h2>Quem somos</h2>
+                <p>Somos uma Hamburgueria com mais de 5 anos de história, levando o melhor sabor pra você!!
+                </p>
+            </header>
+        </section>
+
+        <section id="cadastro">
+            <div class="cadastro">
+                <div class="container">
+
+                    <h2>Receba cupons de desconto todos os dias!!</h2>
+
+                    <p>Cadastre-se já</p>
+                    
+                    <div class="quadro">
+                        <form>
+                            <fieldset class="grupo">
+                                <div class="campo">
+                                    <label for="nome"><strong>Nome:</strong></label>
+                                    <input type="text" name="nome" id="nome" required>
+                                </div>
+                    
+                                <div class="campo">
+                                    <label for="sobrenome"><strong>Sobrenome:</strong></label>
+                                    <input type="text" name="sobrenome" id="sobrenome" required>
+                                </div>
+                            </fieldset>
+                    
+                            <div class="campo">
+                                <label for="email"><strong>Email:</strong></label>
+                                <input type="email" name="email" id="email" required>
+                            </div>
+                    
+                            <div>
+                                <label class="campo"><strong>Deseja receber nossas ofertas por email?</strong></label><br>
+                    
+                                <label>
+                                    <input type="radio" name="receber-convite" value="sim">sim
+                                </label>
+                                
+                                <label>
+                                    <input type="radio" name="receber-convite" value="nao">Não
+                                </label>
+                            </div>
+                    
+                            <button class="botao" type="submit">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+            <a href="index.html" class="logo">
+                <img src="./src/images/Logo.png" alt="Logo Hamburgueria">
+            </a>
+
+            <ul>
+                <li><a href="#cardapio">Cardápio</a></li>
+                <li><a href="mailto:kaiqueartiagaluz@gmail.com">Contato</a></li>
+                <li><a href="#quem-somos">Quem somos?</a></li>
+                <li><a href="#cadastro">Cadastre-se</a></li>
+            </ul>
+
+            <div class="conteudo-de-baixo">
+                <div class="redes-sociais">
+                    <a href="#" target="_blank">
+                        <img class="facebook" title="Logo Facebook" src="./src/images/face.png" alt="Logo Facebook">
+                    </a>
+    
+                    <a href="#" target="_blank">
+                        <img class="instagram" title="Logo Instagram" src="./src/images/insta.png" alt="Logo Instagram">
+                    </a>
+                </div>
+                <div class="copyright">© 2022 Kartiaga Hamburgueria</div>
+    </footer>
+    
+</body>
+</html>

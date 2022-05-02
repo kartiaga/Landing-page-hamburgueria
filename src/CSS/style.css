@@ -1,0 +1,263 @@
+
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.cabecalho{
+    padding: 30px 15px;
+    position: relative;
+}
+
+.cabecalho .logo{
+    background: url(../images/Logo.png) center center no-repeat;
+    width: 65px;
+    height: 65px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin-right: 0 auto;
+}
+
+.cabecalho .logo h1{
+    font-size: 0;
+}
+
+.cabecalho nav{
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.cabecalho ul li{
+    display: inline-block;
+    padding: 15px;
+}
+
+.cabecalho ul li a:hover{
+    font-weight: bold;
+}
+
+.painel {
+    background: url(../images/painel.png) center center no-repeat;
+    height: 600px;
+}
+
+.painel h2{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    top: 28%;
+    transform: translateY(-28%);
+    right: 20%;
+}
+
+.tabela-dos-sabores h2 {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 50px;
+    font-size: 58px;
+    font-weight: bold;
+    
+}
+
+.tabela-dos-sabores{
+    width: 1440px;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 50px;
+}
+
+.tabela-dos-sabores table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tabela-dos-sabores table tr td{
+    padding: 30px;
+}
+
+.tabela-dos-sabores table tr th {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.tabela-dos-sabores table tr td a img {
+    opacity: 1;
+    margin-top: 15px;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+.tabela-dos-sabores table tr td a img:hover {
+    opacity: 0.7;
+    transition: 0.7s;
+}
+
+
+.tabela-das-bebidas h2 {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 50px;
+    font-size: 58px;
+    font-weight: bold;
+    
+}
+
+.tabela-das-bebidas {
+    width: 1440px;
+    background-color: rgb(231, 231, 231);
+    padding-bottom: 50px;
+}
+
+.tabela-das-bebidas table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tabela-das-bebidas table tr td{
+    padding: 30px;
+}
+
+.tabela-das-bebidas table tr th {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.tabela-das-bebidas table tr td a img {
+    opacity: 1;
+    margin-top: 15px;
+    width: 350px;
+    height: 350px;
+}
+
+.tabela-das-bebidas table tr td a img:hover {
+    opacity: 0.7;
+    transition: 0.7s;
+}
+
+.secao-com-texto{
+    background-color: #fff;
+    padding: 153px;
+    text-align: center;
+    clear: both;
+}
+
+.secao-com-texto img{
+    width: 170px;
+    height: 170px;
+    margin-bottom: 70px;
+}
+
+.secao-com-texto h2{
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 37px;
+}
+
+.secao-com-texto p{
+    font-size: 26px;
+    width: 702px;
+    margin: 0 auto;
+}
+
+.cadastro{
+    background-color: rgb(231, 231, 231);
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.cadastro .container{
+    margin: 0 auto;
+    width: 600px;
+    height: 550px;
+}
+
+.cadastro .container .quadro{
+    border: solid;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.cadastro h2 {
+    font-size: 45px;
+    padding-top: 50px;
+    font-weight: bold;
+}
+
+.cadastro p{
+    font-size: 28px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.cadastro form{
+    text-align: left;
+}
+
+.cadastro .campo{
+    padding-bottom: 10px;
+}
+
+.cadastro .campo input {
+    height: 20px;
+}
+
+.cadastro .container .botao {
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 18px;
+    font-weight: 800;
+    color: #fff;
+    background-color: #33cc33;
+}
+
+.rodape {
+    background: url(../images/rodape.png) center center no-repeat;
+    padding: 35px 30px;
+    background-size: cover;
+}
+
+.rodape ul{
+    float: right;
+    margin-top: 30px;
+}
+
+.rodape ul li{
+    display: inline-block;
+    padding: 15px;
+}
+
+.rodape ul li a{
+    font-size: 26px;
+    color: #fff;
+}
+
+.rodape ul li a:hover{
+    font-weight: bold;
+}
+
+.rodape .copyright{
+    color: #fff;
+}
+
+.rodape .redes-sociais .facebook, .rodape .redes-sociais .instagram{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+.rodape .redes-sociais{
+    float: right;
+    clear: both;
+}
+
+.rodape .conteudo-de-baixo{
+    margin-top: 40px;
+}

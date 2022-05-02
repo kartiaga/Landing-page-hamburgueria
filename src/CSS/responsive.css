@@ -1,0 +1,36 @@
+@media (max-width: 425px) {
+
+    .cabecalho {
+        background-color: blueviolet;
+        
+    }
+
+    .cabecalho .logo{
+        display: block;
+    }
+
+    .cabecalho nav{
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    .cabecalho nav ul li{
+        display: block;
+    }
+
+    .cabecalho nav ul li{
+        display: block;
+        width: 100%;
+    }
+
+    .cabecalho h2 {
+        color: red;
+    }
+
+    .painel {
+        
+    }
+
+    
+}
